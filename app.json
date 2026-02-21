@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/app_logo.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.syedarmaan.Product_listing"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "79d4d40d-68f4-48e7-a6ef-8aaca30af9c1"
+      }
     }
   }
 }

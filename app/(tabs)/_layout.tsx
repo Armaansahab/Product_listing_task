@@ -42,6 +42,19 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="index"
+        options={{
+          title: 'Buy',
+          tabBarIcon: ({ color, focused }) => (
+            <MaterialIcons 
+              name={focused ? 'shopping-bag' : 'shopping-bag'} 
+              size={24} 
+              color={color} 
+            />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
